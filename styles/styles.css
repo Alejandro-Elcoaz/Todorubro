@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-tienda {
+    display: grid;
+    margin: 10px;
+    height: 100vh;
+    grid-template-rows: 20% auto 10%;
+}
+header {    
+    background-color: #fee859;  
+    display: flex;  
+    justify-content:space-between;
+    align-items: center;
+}
+.boton-search {
+    background-color: #e5097f;
+}
+
+.boton-search:hover {
+    border: 1px solid #e5097f;      
+}
+
+a {
+    text-decoration: none;
+    color: #e5097f;
+}
+ul li {
+    display: inline-block;
+    margin: 10px;
+}    
+section article h2, h3 {               
+    font-style: italic;
+    color: #e5097f;
+    margin:20px;
+}
+
+footer, h4 {
+    font-style: italic;
+    font-size: 15px;
+    color: #252627;
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fee859;        
+}
+
+.titulo-categorias {
+    font-style: italic;
+    color: #e5097f;
+    margin: 10px;
+}
+
+.categorias {   
+    font-style:italic;
+    list-style-type: none;
+    text-decoration: none;
+    color: #252627;
+    margin:10px;
+}
+
+.contacto-comentario {
+    font-style: italic;
+    color:#BB0A21;
+    margin: 10px;
+}
+.maps {
+    width: 150px;
+    height: 150px;
+}
+.formulario {
+    width: 600px;
+}
+
+.boton {
+    background-color: #e5097f;
+}
+
+.boton:hover {
+    border: 1px solid #e5097f;      
+}
+
+.ofertas {
+    font-style: italic;
+    color:#BB0A21;
+    margin: 10px;
+}
+.productos {
+    font-style: italic;
+    color:#BB0A21;
+    margin: 10px;
+}
+.tienda {
+    font-style: italic;
+    color:#BB0A21;
+    margin: 10px;
+}
+.como-vender {
+    font-style: italic;
+    color:#252627;
+    margin: 10px;
+}
+.maps{
+    margin: 10px;
+}
+
+@media (min-width: 480px) and (max-width: 576px) {
+    header {
+        height: max-content;
+    }
+
+    ul li {
+        display: block;
+    }
+
+
+
+}
+
+    
+
+
