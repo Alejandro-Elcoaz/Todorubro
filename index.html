@@ -11,11 +11,10 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Todorubro</title>
 </head>
-<body>
-    <div class="grid-tienda">
+<body>    
     <header>
-        <nav class="navbar navbar-expand-lg bg-#fee859">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-#fee859">   
+          <div class="container-fluid">       
               <a class="navbar-brand" href="#">
                 <img src="./assets/Todorubro.png" alt="Logo Todorubro">
               </a>
@@ -25,8 +24,11 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./pages/categorias.html">Categorias</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/categorias.html">Categorias</a>
+                  </li>         
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/productos.html">Productos</a>
                   </li>               
@@ -39,22 +41,23 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                   </li>
-                  <li class="nav-item dropdown">
+                 <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>-->
                     </ul>
                   </li>                  
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Productos, marcas..." aria-label="Search">
+                  <input class="buscador" type="search" placeholder="Productos, marcas..." aria-label="Search">
                   <button class="btn boton-search" type="submit">Buscar</button>
                 </form>              
             </div>
+          </div>
           </nav>
         <!--Logo principal-->
         <!--<img src="./assets/Tienda Todorubro.png" alt="logo todorubro">-->
@@ -69,8 +72,7 @@
             </ul>
         </nav>
     </header>
-        <main>      
-        <!--carrousel-->  
+         <!--carrousel-->  
         <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -92,29 +94,40 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        
+          </div>
         <!--Ofertas-->
-            <section>
-                <article class="fuentes colores">
-            <h2>OFERTAS</h2>
-            <H3>VER TODAS</H3>            
-              <div class="mercaderia"> 
-                <img src="./assets/notebook.jpg" alt="imagen de notebook">
-                <img src="./assets/notebook.jpg" alt="imagen de notebook">
-                <img src="./assets/notebook.jpg" alt="imagen de notebook">
-                <img src="./assets/notebook.jpg" alt="imagen de notebook"> 
-                <img src="./assets/notebook.jpg" alt="imagen de notebook">    
-              </div>            
+        <section>   
+          <article class="fuentes colores">
+            <div class="ofertas-ver-todas">
+              <h2>OFERTAS</h2>
+            <h3>VER TODAS</h3>            
+            </div>
+              <div class="galeria"> 
+                <img src="./assets/notebook.jpg" alt="notebook 1">
+                <img src="./assets/notebook.jpg" alt="notebook 2">
+                <img src="./assets/notebook.jpg" alt="notebook 3">
+                <img src="./assets/notebook.jpg" alt="notebook 4">     
+              </div> 
+          </article>
+          </div>
+         </section>
+         <section>
+            <article class smart>     
+            <div class="vistas-historial">
             <h2>ULTIMAS VISTAS</h2>
-            <H3>VER HISTORIAL</H3>
-                    <img src="./assets/TV Smart.jpg" alt="imagen de tv">
-                    <img src="./assets/TV Smart.jpg" alt="imagen de tv">
-                    <img src="./assets/TV Smart.jpg" alt="imagen de tv">  
-                    <img src="./assets/TV Smart.jpg" alt="imagen de tv">                          
-                </article>
-            </section>    
+            <h3>VER HISTORIAL</h3>
+            </div>            
+            <div class="galeria">
+                <img src="./assets/TV Smart.jpg" alt="smart 1">
+                <img src="./assets/TV Smart.jpg" alt="smart 2">
+                <img src="./assets/TV Smart.jpg" alt="smart 3">  
+                <img src="./assets/TV Smart.jpg" alt="smart 4">   
+              </div> 
+            </div>                           
+          </article>
+        </section>    
         </main>       
-        <footer>
+        <footer class="container-fluid">
             <h4>Sobre Todorubro</h4>
             <h4>Más información</h4>
             <h4>Todos los derechos reservados</h4>

@@ -9,8 +9,7 @@
     <title>Vender</title>
 </head>
 <body>
-    <div class="grid-tienda">
-        <header>
+    <header>
             <nav class="navbar navbar-expand-lg bg-#fee859">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
@@ -22,8 +21,11 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">                 
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./categorias.html">Categorias</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./categorias.html">Categorias</a>
+                      </li>    
                       <li class="nav-item">
                         <a class="nav-link" href="./productos.html">Productos</a>
                       </li>               
@@ -36,19 +38,19 @@
                       <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                       </li>
-                      <li class="nav-item dropdown">
+                   <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Dropdown
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Action</a></li>
                           <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>-->
                         </ul>
                       </li>                  
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Productos, marcas..." aria-label="Search">
+                      <input class="buscador" type="search" placeholder="Productos, marcas..." aria-label="Search">
                       <button class="btn boton-search" type="submit">Buscar</button>
                     </form>              
                 </div>
@@ -66,34 +68,29 @@
             </ul>
         </nav>
     </header>
-    <main>     
-        <h2 class="tienda">Tu tienda on line</h2>
-        <p class="como-vender">¡Hola! Para vender tus productos o servicios ingresa tu contraseña de Todorubro!</p> 
-        <form>
-          <div class="formulario">
+    <main class="container">  
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="tienda">
+        <h2>Tu tienda on line</h2>        
+        <p>¡Hola! Para vender tus productos o servicios ingresa tu contraseña de Todorubro!</p> 
+        <form>                          
           <div class="mb-3">
-          <!--<label for="exampleInputEmail1" class="form-label">Ingrese con su email</label>-->
-          <!--<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">-->
-          <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
-          </div>
-          <div class="mb-3">
+            <div class="formulario">
             <label for="exampleInputPassword1" class="form-label">Ingrese su contraseña</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
+                    
           <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Mostrar u ocultar</label>
+            <!--<input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Mostrar u ocultar</label>-->
           </div>
           <button type="submit" class="btn boton">Enviar</button>
+          </div>
         </form>
-
-        <!--<form action="404.html">-->
-        <!--<input type="password" placeholder="Ingrese su contraseña">-->              
-        <!--<input type="Iniciar sesión" placeholder="Iniciar sesión">--> 
-        <!--<input type="¿Olvidaste tu contraseña?" placeholder="Olvidaste tu contraseña?">-->
-        </form>
+          </div>
+        </div>
     </main>
-    <footer>
+    <footer class="container-fluid">
         <h4>Sobre Todorubro</h4>
         <h4>Más información</h4>
         <h4>Todos los derechos reservados</h4>

@@ -9,11 +9,10 @@
     <title>Contacto</title>
 </head>
 <body>
-    <div class="grid-tienda">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-#fee859">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
+    <header class="container-fluid">
+         <nav class="navbar navbar-expand-lg bg-#fee859">
+             <!--<div class="container-fluid">-->
+                <a class="navbar-brand" href="#">
                     <a href="../index.html"><img src="../assets/Todorubro.png" alt="Logo Todorubro">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,8 +21,11 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">                 
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./categorias.html">Categorias</a>
-                      </li>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>     
+                      <li class="nav-item">
+                        <a class="nav-link" href="./categorias.html">Categorias</a>
+                      </li>                 
                       <li class="nav-item">
                         <a class="nav-link" href="./productos.html">Productos</a>
                       </li>               
@@ -36,22 +38,22 @@
                       <li class="nav-item">
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                       </li>
-                      <li class="nav-item dropdown">
+                      <!--<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Dropdown
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Action</a></li>
                           <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>-->
                         </ul>
                       </li>                  
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Productos, marcas..." aria-label="Search">
+                      <input class="buscador" type="search" placeholder="Productos, marcas..." aria-label="Search">
                       <button class="btn boton-search" type="submit">Buscar</button>
-                    </form>              
-                </div>
+                    </form>   
+                  </div>          
               </nav> 
 <!--<header>-->
     <!--<a href="../index.html"><img src="../assets/Todorubro.png" alt="Logo Todorubro"></a>-->
@@ -66,13 +68,18 @@
             </ul>
         </nav>
     </header>
-    <main>   
-        <h1 class="contacto-comentario">Contactate con nosotros</h1>
-        <h2 class="contacto-comentario">Dejanos tus comentarios</h2>    
-        <form>
+    <main class="container">   
+      <!--<div class="container">-->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="contacto-comentario">
+        <h1>Crea tu cuenta</h1>
+        <h2>Bienvenido a Todorubro</h2>  
+      </div> 
+       <form>
             <div class="formulario">
             <div class="mb-3">
-              <label for="Ingrese con su emai" class="form-label">Ingrese con su email</label>
+              <label for="Ingrese con su emai" class="form-label">Ingrese su email</label>
               <input type="email" class="form-control" id="ingrese con su email" aria-describedby="emailHelp">
             <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
             </div>
@@ -81,21 +88,18 @@
               <input type="password" class="form-control" id="ingrese su contraseña">
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="mostrar">
-              <label class="Mostrar" for="exampleCheck1">Mostrar</label>
+            <!--<input type="checkbox" class="form-check-input" id="mostrar">
+              <label class="Mostrar" for="exampleCheck1">Mostrar</label>-->
             </div>
             <button type="submit" class="btn boton">Enviar</button>
-          </form>
-        <!--<form action="404.html">
-            <input type="Nombre y Apellido" placeholder="Ingrese su nombre">
-            <input type="email" placeholder="Ingrese con su email">
-            <input type="password" placeholder="Ingrese su contraseña">
-            <input type="submit">                       
-        </form>-->
+            </div>
+       </form>
+          </div>
+      </div>    
     </main>    
     <!--Iframe gmaps-->
    <!--<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d680.2017513019102!2d-60.285762127435085!3d-38.36949703393495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95926c348ba60743%3A0xa52fb197ffa96899!2sAv.%20San%20Mart%C3%ADn%20991%2C%20Tres%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses-419!2sar!4v1695000858824!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
-    <footer>
+    <footer class="container-fluid">
         <h4>Sobre Todorubro</h4>
         <h4>Más información</h4>
         <h4>Todos los derechos reservados</h4>

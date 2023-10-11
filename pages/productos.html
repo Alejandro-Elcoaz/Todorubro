@@ -9,7 +9,6 @@
     <title>Productos</title>
 </head>
 <body>
-    <div class="grid-tienda">
     <header>
         <nav class="navbar navbar-expand-lg bg-#fee859">
             <div class="container-fluid">
@@ -22,8 +21,11 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">                 
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./categorias.html">Categorias</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./categorias.html">Categorias</a>
+                  </li>    
                   <li class="nav-item">
                     <a class="nav-link" href="./productos.html">Productos</a>
                   </li>               
@@ -36,21 +38,22 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
-                  <li class="nav-item dropdown">
+                <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Action</a></li>
                       <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>-->
                     </ul>
                   </li>                  
                 </ul>
                 <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Productos, marcas..." aria-label="Search">
+                  <input class="buscador" type="search" placeholder="Productos, marcas..." aria-label="Search">
                   <button class="btn boton-search" type="submit">Buscar</button>
-                </form>              
+                </form>  
+              </div>            
             </div>
           </nav>
 
@@ -69,19 +72,56 @@
         </nav>
     </header>
     <main>
-        <h2 class="productos">Pcs y Notebooks</h2>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/banner carrousel 2.webp" class="d-block w-100" alt="banner descuentos">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/banner carrousel 3.webp" class="d-block w-100" alt="Banner envios">
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/banner carrousel 4.webp" class="d-block w-100" alt="Banner día de la madre">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section>
+        <article>
+        <div class="productos">
+        <h2>Pcs y Notebooks</h2>
+        </div>
+        <div class="galeria">
         <img src="../assets/notebook.jpg" alt="Notebook">
         <img src="../assets/notebook.jpg" alt="Notebook">
         <img src="../assets/notebook.jpg" alt="Notebook">
         <img src="../assets/notebook.jpg" alt="Notebook">
-        <img src="../assets/notebook.jpg" alt="Notebook">
-        <h2 class="productos">Celulares</h2>
+        </div>
+        </article>
+      </section>
+      <section>
+        <article>  
+        <div class="celular">   
+        <h2>Celulares</h2>
+        </div>
+        <div class="galeria">
         <img src="../assets/celular.jpg" alt="Celular">
         <img src="../assets/celular.jpg" alt="Celular">
         <img src="../assets/celular.jpg" alt="Celular">
         <img src="../assets/celular.jpg" alt="Celular">
+        </div>
+        </article>
+      </section>
     </main>
-    <footer>
+    <footer class="container-fluid">
         <h4>Sobre Todorubro</h4>
         <h4>Más información</h4>
         <h4>Todos los derechos reservados</h4>

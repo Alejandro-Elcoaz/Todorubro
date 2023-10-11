@@ -3,17 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-.grid-tienda {
-    display: grid;
-    margin: 10px;
-    height: 100vh;
-    grid-template-rows: 20% auto 10%;
-}
+
 header {    
     background-color: #fee859;  
     display: flex;  
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+}
+.buscador {
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+
 }
 .boton-search {
     background-color: #e5097f;
@@ -31,10 +33,43 @@ ul li {
     display: inline-block;
     margin: 10px;
 }    
-section article h2, h3 {               
+
+.ofertas-ver-todas {
+    display: flex;   
     font-style: italic;
     color: #e5097f;
-    margin:20px;
+    justify-content:baseline;
+    margin:30px;
+}
+
+.vistas-historial {
+    display: flex;    
+    font-style: italic;
+    color: #e5097f;
+    justify-content:first baseline;
+    margin: 20px;
+}
+
+h2 {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+  
+h3 {
+    margin-left: 20px;
+}
+
+.galeria {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    max-width: 100%;
 }
 
 footer, h4 {
@@ -62,19 +97,39 @@ footer, h4 {
 }
 
 .contacto-comentario {
+    text-align: center;
     font-style: italic;
-    color:#BB0A21;
-    margin: 10px;
+    color:#e5097f;
+    margin-top: 50px;
 }
+
+.form-label {
+    font-style: italic;
+    color:#252627;
+}
+
+.form-control {    
+    width: 400px;
+    border-color:#252627;
+    border-width: 1px;    
+    margin: 0 auto;
+    border-style: solid;  
+}
+
 .maps {
     width: 150px;
     height: 150px;
 }
-.formulario {
-    width: 600px;
+
+.formulario {    
+    text-align: center;
+    color:#252627;
+    height: 50vh;
+    margin-top: 50px;
 }
 
 .boton {
+    font-style:italic;
     background-color: #e5097f;
 }
 
@@ -83,41 +138,42 @@ footer, h4 {
 }
 
 .ofertas {
+    display: flex;    
     font-style: italic;
-    color:#BB0A21;
-    margin: 10px;
+    color:#e5097f;
+    margin: 30px;    
+    margin-left: 40px;
 }
+
 .productos {
     font-style: italic;
-    color:#BB0A21;
+    color:#e5097f;
+    margin: 30px;
+}
+
+.celular {
+    font-style: italic;
+    color: #e5097f;
     margin: 10px;
 }
+
 .tienda {
+    text-align: center;
     font-style: italic;
-    color:#BB0A21;
-    margin: 10px;
+    color:#e5097f;
+    height: 60vh;
+    margin-top: 130px;
 }
-.como-vender {
-    font-style: italic;
-    color:#252627;
-    margin: 10px;
-}
+
 .maps{
     margin: 10px;
 }
 
-@media (min-width: 480px) and (max-width: 576px) {
-    header {
-        height: max-content;
-    }
-
-    ul li {
-        display: block;
-    }
-
-
-
+@media (min-width: 480px) and (max-width: 768) {
+    
 }
+
+
 
     
 
