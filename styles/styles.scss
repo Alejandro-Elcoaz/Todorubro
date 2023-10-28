@@ -41,6 +41,20 @@ h3 {
   max-width: 100%;
 }
 
+.titulo-categorias {
+  font-style: italic;
+  color: #e5097f;
+  margin: 10px;
+}
+
+.categorias {
+  font-style: italic;
+  color: #252627;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+}
+
 .contacto-comentario {
   text-align: center;
   font-style: italic;
@@ -152,4 +166,4 @@ footer, h4 {
   background-color: #fee859;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.scss.map */

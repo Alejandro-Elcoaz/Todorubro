@@ -1,0 +1,9 @@
+footer, h4 {
+    @include estilo-italic($color-gris);
+    font-size: 15px; 
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $color-amarillo;        
+   }
+   

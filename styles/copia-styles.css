@@ -1,0 +1,175 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {    
+    background-color: #fee859;  
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.buscador {
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+.boton-search {
+    background-color: #e5097f;
+}
+
+.boton-search:hover {
+    border: 1px solid #e5097f;      
+}
+
+a {
+    text-decoration: none;
+    color: #e5097f;
+}
+ul li {
+    display: inline-block;
+    margin: 10px;
+}    
+
+.ofertas-ver-todas {
+    display: flex;   
+    font-style: italic;
+    color: #e5097f;
+    justify-content:baseline;
+    margin:30px;
+}
+
+.vistas-historial {
+    display: flex;    
+    font-style: italic;
+    color: #e5097f;
+    justify-content:first baseline;
+    margin: 20px;
+}
+
+h2 {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+  
+h3 {
+    margin-left: 20px;
+}
+
+.galeria {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+footer, h4 {
+    font-style: italic;
+    font-size: 15px;
+    color: #252627;
+    margin:10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fee859;        
+}
+
+.titulo-categorias {
+    font-style: italic;
+    color: #e5097f;
+    margin: 10px;
+}
+
+.categorias {   
+    font-style:italic;
+    list-style-type: none;
+    text-decoration: none;
+    color: #252627;
+    margin:10px;
+}
+
+.contacto-comentario {
+    text-align: center;
+    font-style: italic;
+    color:#e5097f;
+    margin-top: 50px;
+}
+
+.form-label {
+    font-style: italic;
+    color:#252627;
+}
+
+.form-control {    
+    width: 300px;
+    box-sizing: border-box;
+    border-color:#252627;
+    border-width: 1px;    
+    margin: 0 auto;
+    border-style: solid;  
+}
+
+.maps {
+    width: 150px;
+    height: 150px;
+}
+
+.formulario {    
+    text-align: center;
+    color:#252627;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.boton {
+    font-style:italic;
+    background-color: #e5097f;
+}
+
+.boton:hover {
+    border: 1px solid #e5097f;      
+}
+
+.ofertas {
+    display: flex;    
+    font-style: italic;
+    color:#e5097f;
+    margin: 30px;    
+    margin-left: 40px;
+}
+
+.productos {
+    font-style: italic;
+    color:#e5097f;
+    margin: 30px;
+}
+
+.celular {
+    font-style: italic;
+    color: #e5097f;
+    margin: 10px;
+}
+
+.tienda {
+    text-align: center;
+    font-style: italic;
+    color:#e5097f;
+    height: 60vh;
+    margin-top: 130px;
+}
+
+.maps{
+    margin: 10px;
+}
+
+@media (min-width: 480px) and (max-width: 768) {
+    
+}

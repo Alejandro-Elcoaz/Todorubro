@@ -1,0 +1,104 @@
+.ofertas-ver-todas {
+    display: flex;   
+    @include estilo-italic($color-rosa);
+    justify-content:baseline;
+    margin:30px;
+  }
+  
+  .vistas-historial {
+    display: flex;    
+    @include estilo-italic($color-rosa);
+    justify-content:first baseline;
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+    
+  h3 {
+    margin-left: 20px;
+  }
+  
+  .galeria {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    img {
+      width: 250px;
+      height: 400px;
+      margin: 10px;
+      max-width: 100%;
+    }
+  }
+    
+   .contacto-comentario {
+    text-align: center; 
+    @include estilo-italic($color-rosa);
+    margin-top: 50px; 
+   }
+   
+   .form-label {
+    @include estilo-italic($color-gris); 
+   }
+   
+   .form-control {    
+    width: 300px; 
+    box-sizing: border-box; 
+    border-color:$color-gris; 
+    border-width: 1px;    
+    margin: 0 auto; 
+    border-style: solid;  
+   }
+   
+   .maps {
+    width: 150px; 
+    height: 150px; 
+   }
+   
+   .formulario {    
+    text-align: center; 
+    color:$color-gris; 
+    height: 50vh; 
+    margin-top: 50px; 
+   }
+   
+   .boton {
+    @include estilo-italic($color-rosa); 
+    background-color:$color-rosa;
+   
+    &:hover {
+      border:1px solid $color-rosa;      
+    }
+   }
+
+   .ofertas {
+    display:flex;    
+    @include estilo-italic($color-rosa); 
+    margin: 30px;    
+    margin-left: 40px;        
+   }
+   
+   .productos {
+    @include estilo-italic($color-rosa); 
+    margin: 30px;
+     
+   }
+   
+   .celular {
+    @include estilo-italic($color-rosa); 
+    margin: 10px; 
+   }
+   
+   .tienda {
+    text-align: center; 
+    @include estilo-italic($color-rosa); 
+    height: 60vh; 
+    margin-top: 130px; 
+   }
+   
+   
+  
+
