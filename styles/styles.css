@@ -161,6 +161,10 @@ ul li {
   margin: 1px;
 }
 
+.navbar {
+  margin-bottom: 0 !important;
+}
+
 footer, h4 {
   font-style: italic;
   color: #252627;
