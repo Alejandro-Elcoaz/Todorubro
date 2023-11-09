@@ -1,8 +1,18 @@
+.fondo {
+  background-color: #f2f2f2;
+}
+
 .ofertas-ver-todas {
   display: flex;   
-  @include estilo-italic($color-rosa);
-  justify-content:baseline;
-  margin:30px;
+  justify-content: baseline;
+  margin: 20px;
+  h2 {
+    @include estilo-italic($color-rosa)
+  }
+  h5 {
+    @include estilo-italic($color-gris)
+  }
+  
 }
 
 .vistas-historial {
@@ -17,23 +27,14 @@
     margin-left: 40px;
   }
     
-  h3 {
-    margin-left: 20px;
+  h5 {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: $color-gris;
+    
   }
   
-  .galeria {
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  
-    img {
-      width: 250px;
-      height: 400px;
-      margin: 10px;
-      max-width: 100%;
-    }
-  }
-   
+    
    .form-control {    
     width: 300px; 
     box-sizing: border-box; 
@@ -55,6 +56,82 @@
     margin-top: 50px; 
    }
    
+   .carousel-card {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  .card {
+    flex-basis: calc(100% / 5);
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    .card-body {
+      background-color: ffffff; 
+      border-radius: 20px;
+      border: 1px solid black;
+      text-align: center;
+  
+      h3 { 
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        @include estilo-italic($color-rosa);
+      }
+  
+      p {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+        @include estilo-italic($color-gris)
+      }
+  
+      strong {
+        font-size: 1.50rem;
+        @include estilo-italic($color-rosa);
+      }
+    }
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .banner {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    p {
+      @include estilo-italic($color-gris)
+    }
+  }
+  
+ 
+  
+  
+
+  
+  
+  
    
    
    

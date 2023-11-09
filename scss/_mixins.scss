@@ -5,6 +5,7 @@
 
  /*estilizo html Contacto*/
   .contacto-comentario {
+    flex-wrap: wrap;
     text-align: center; 
     @include estilo-italic($color-rosa);
     margin-top: 50px; 
@@ -28,8 +29,8 @@
     @include estilo-italic($color-rosa); 
     margin: 30px;    
     margin-left: 40px;        
-   }
-   
+   }     
+
    .productos {
     @include estilo-italic($color-rosa); 
     margin: 30px;
@@ -38,14 +39,14 @@
    
    .celular {
     @include estilo-italic($color-rosa); 
-    margin: 10px; 
+    margin: 30px; 
    }
    
    .tienda {
+    flex-wrap: wrap;
     text-align: center; 
     @include estilo-italic($color-rosa); 
-    height: 60vh; 
-    margin-top: 130px; 
+    margin-top: 50px; 
    }
    /*estilizo menú desplegable categorias*/
    @mixin estilo-menu($font-style, $color) {
@@ -60,6 +61,14 @@
    .dropdown-item {
     @include estilo-menu($fuente-principal, $color-rosa)
    }
+
+   .card {
+    @include estilo-menu($fuente-principal, $color-gris)
+   }
+
+   
+   
+   
 
    
   
