@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     text-align: center; 
     @include estilo-italic($color-rosa);
-    margin-top: 50px; 
+    margin-top: 30px; 
    }
    
    .form-label {
@@ -46,7 +46,7 @@
     flex-wrap: wrap;
     text-align: center; 
     @include estilo-italic($color-rosa); 
-    margin-top: 50px; 
+    margin-top: 30px; 
    }
    /*estilizo menú desplegable categorias*/
    @mixin estilo-menu($font-style, $color) {

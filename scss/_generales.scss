@@ -2,6 +2,7 @@
   background-color: #f2f2f2;
 }
 
+/*Titulos index*/
 .ofertas-ver-todas {
   display: flex;   
   justify-content: baseline;
@@ -34,9 +35,9 @@
     
   }
   
-    
+    /*formularios*/
    .form-control {    
-    width: 300px; 
+    width: 250px; 
     box-sizing: border-box; 
     border-color:$color-gris; 
     border-width: 1px;    
@@ -53,9 +54,10 @@
     text-align: center; 
     color:$color-gris; 
     height: 50vh; 
-    margin-top: 50px; 
+    margin-top: 30px; 
    }
-   
+
+   /*carrusel de cards*/   
    .carousel-card {
     display: flex;
     flex-wrap: wrap;
@@ -107,7 +109,8 @@
       }
     }
   }
-  
+
+  /*banner publicitario*/  
   .container {
     width: 90%;
     margin: 0 auto;
@@ -124,7 +127,38 @@
       @include estilo-italic($color-gris)
     }
   }
+
+  .banner {
+    border: {
+      top: 1px solid black;
+      right: 1px solid black;
+      bottom: 1px solid black;
+      left: 1px solid black;
+    }
+    border-radius: 20px;
+  }
   
+
+  .imagen-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .imagen-banner img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+  }
+
+  .navbar-nav {
+    text-align:end;
+   }
+
+  
+  
+   
  
   
   
